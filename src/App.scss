@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poiret+One&family=VT323&display=swap');
+
+
+
+:root {
+  --color-primary: #8257e6;
+
+  
+  
+}
+.App{
+
+  &__main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  
+  h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+  }
+    
+  &--watch{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-bottom: var(--color-primary) solid;
+    border-radius: 45px;
+    margin: 5px 5px;
+  }
+  &--countdown{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-bottom: var(--color-primary) solid;
+    border-radius: 45px;
+    margin: 10px 20px;
+
+  }
+
+  &--cronometro{
+  margin: 25px;
+  background-image: url("https://cdn6.aptoide.com/imgs/d/c/e/dcee7acc1c054c29e57486293d4bc629_screen.png");
+  border: 25px solid black; 
+  border-radius: 5px;
+  margin: 3vh;
+  display: flex;
+  justify-content:center;
+  text-align:center;
+
+  }
+  }
+
+}
+
+

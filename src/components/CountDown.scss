@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Poiret+One&family=VT323&display=swap');
+
+.countdown{
+    margin: 25px;
+    background-image: url("https://cdn6.aptoide.com/imgs/d/c/e/dcee7acc1c054c29e57486293d4bc629_screen.png");
+    border: 25px solid black;
+    
+    h2{
+      font-family: 'Poiret One', cursive;
+      font-size: 3.5rem;
+      margin: 15px;
+    }
+    p{
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        text-transform: uppercase;
+      }
+    
+  }
